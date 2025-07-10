@@ -1,0 +1,68 @@
+# Version control
+.git
+.gitignore
+
+# Dependencies
+node_modules
+vendor/bundle
+
+# Build outputs
+build
+dist
+tmp
+
+# Environment files
+.env*
+!.env.example
+
+# Logs
+*.log
+log
+
+# Development files
+.cache
+.tmp
+coverage
+.nyc_output
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Documentation
+README.md
+*.md
+docs
+
+# Test files
+test
+tests
+spec
+__tests__
+*.test.*
+*.spec.*
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+.circleci
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Development tools
+.editorconfig
+.eslintrc*
+.prettierrc*
+tsconfig.json
+jest.config.*
+webpack.config.*
